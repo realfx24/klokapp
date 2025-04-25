@@ -41,12 +41,20 @@
     private_key_2
     private_key_3
    ```
+   
+   ```bash
+    nano config/private_key.txt
+   ```
 
 2. Fill your referral code in config/ref_code.txt like this (dont input link)
    ```bash
    referral_code1
    referral_code2
    referral_code3
+   ```
+   
+   ```bash
+    nano config/ref_code.txt
    ```
 
 ## How to use
