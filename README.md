@@ -2,6 +2,7 @@
 <p align="center">
     <img width="600" alt="image" src="img1.png">
 </p>
+
 *KlokApp Auto Bot is an automation script to earning point from send chat to AI platform, such as Daily and referrer*
 
 - Register : [HERE](https://klokapp.ai?referral_code=L7USVPYL)
