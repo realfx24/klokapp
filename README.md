@@ -23,9 +23,9 @@
    cd klokapp
    ```
 
-2. Activate Virtual Environment (Optional for VPS):
+2. Activate Virtual Environment (Required for VPS):
    ```bash
-   python -m venv env
+   python3 -m venv env
    source env/bin/activate
    ```
 
