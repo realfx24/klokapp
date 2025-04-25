@@ -51,11 +51,11 @@
 ## How to use
 Run the main script:
    ```bash
-   python bot.py
+   python main.py
    ```
    if in VPS or Linux:
    ```bash
-   python3 bot.py
+   python3 main.py
    ```
 ## Output Example
 <p align="center">
