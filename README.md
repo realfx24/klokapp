@@ -1,6 +1,6 @@
 # KlokApp / MIRA Auto Bot
 <p align="center">
-    <img width="400" alt="image" src="img1.png">
+    <img width="600" alt="image" src="img1.png">
 </p>
 *KlokApp Auto Bot is an automation script to earning point from send chat to AI platform, such as Daily and referrer*
 
@@ -36,12 +36,12 @@
 ## Configuration
 1. enter your private key into config/private_key.txt like this
    ```bash
-   0x...1
-   0x...2
-   0x...3
+    private_key_1
+    private_key_2
+    private_key_3
    ```
 
-2. Fill your referral code in config/ref_code.txt like this
+2. Fill your referral code in config/ref_code.txt like this (dont input link)
    ```bash
    referral_code1
    referral_code2
@@ -63,6 +63,7 @@ Run the main script:
 </p>
 
 ## Dependencies
-- **Asyncio** - A Python library used to write asynchronous code. It allows the program to handle multiple tasks concurrently, such as making API requests or performing background tasks without blocking the main thread.
-- **AioHTTP** - An asynchronous HTTP client/server library for Python. It is used to make non-blocking HTTP requests, which is essential for interacting with APIs in an efficient way.
-- **Loguru** - A modern logging library for Python. It simplifies logging by providing an easy-to-use interface and advanced features like structured logging, log rotation, and better formatting for debugging.
+- **Web3** – A Python library for interacting with the Ethereum blockchain. It is used to send transactions, interact with smart contracts, and connect to Ethereum nodes via HTTP or WebSocket protocols.
+- **eth_account** – A submodule of Web3.py for managing Ethereum accounts. It allows for account creation, signing transactions or messages, and verifying digital signatures.
+- **Colorama** – A Python library that adds color to terminal output, making logs and messages more readable. It works across platforms including Windows, Linux, and macOS.
+- **Requests** – A simple yet powerful HTTP library for Python. It is commonly used to send HTTP requests (GET, POST, etc.) and interact with RESTful APIs easily and efficiently.
