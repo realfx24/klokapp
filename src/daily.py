@@ -170,6 +170,7 @@ def run_daily():
                 if session:
                     print(f"address: {address} {Fore.LIGHTGREEN_EX}Verification successful{Style.RESET_ALL}")
                     sisa = get_limit(session)
+                    get_point(session,address,sisa)
                     while sisa > 0:
                         send_chat(session, address, sisa)
                         sisa -= 1
