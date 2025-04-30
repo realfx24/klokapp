@@ -9,7 +9,7 @@
 
 ## Features
 1. **Auto Chat (Daily)**: Send chat to AI repeat 24 Hours.
-2. **Add Refferer**: Perform automatic mining to earn points.
+2. **Add Refferer**: Perform automatic mining to earn points (Not Available Again).
 3. **Saving Referrer Accounts**: Auto save referrer account into assets/klok_{your_referrer_code}.txt
 4. **Free Bypass Features**: Bypassing ReCaptcha V3 Free
 
