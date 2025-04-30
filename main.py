@@ -37,7 +37,7 @@ def main():
         if choice == "1":
             run_auto_chat()
         elif choice == "2":
-            print('Not Available')
+            print('Not Available Again')
         elif choice == "3":
             print("Exiting...")
             break
