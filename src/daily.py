@@ -12,7 +12,6 @@ from fake_useragent import UserAgent
 import time
 import json
 import os
-import v3
 
 init()
 
@@ -84,7 +83,7 @@ def get_chat_headers(session_token):
 
 def login(signature, message, ref_code=None):
     try:
-        captcha = v3.main('https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LcZrRMrAAAAAKllb4TLb1CWH2LR7iNOKmT7rt3L&co=aHR0cHM6Ly9rbG9rYXBwLmFpOjQ0Mw..&hl=en&v=ItfkQiGBlJDHuTkOhlT3zHpB&size=invisible&cb=679dkivi4qe6')
+        # captcha = v3.main('https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LcZrRMrAAAAAKllb4TLb1CWH2LR7iNOKmT7rt3L&co=aHR0cHM6Ly9rbG9rYXBwLmFpOjQ0Mw..&hl=en&v=ItfkQiGBlJDHuTkOhlT3zHpB&size=invisible&cb=679dkivi4qe6')
         session = requests.Session()
         response = session.post(
             'https://api1-pp.klokapp.ai/v1/verify',
@@ -92,8 +91,8 @@ def login(signature, message, ref_code=None):
             json={
                 'signedMessage': signature,
                 'message': message,
-                'referral_code': ref_code,
-                'recaptcha_token': captcha
+                'referral_code': ref_code
+                #'recaptcha_token': captcha
             }
         )
         if response.status_code == 200:
